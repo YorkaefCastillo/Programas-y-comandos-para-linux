@@ -1,0 +1,38 @@
+HTOP
+Programa que es como el administrador de tareas en windows, nos permite ver los procesos que se esan ejecutando 
+---Comandos de ejecucion--
+-$ htop
+______________________________________________________________________________________________________________
+LYNX
+Programa que nos ayuda a navegar por internet desde la terminal
+--Comandos de ejecucion--
+-$ lynx "url" o lynx "lo que se quiere buscar"
+_______________________________________________________________________________________________________________
+TMUX
+Progra sirve para tener muchas ventanas aviertas, en la misma ventana utilizando puros comandos 
+--Comandos de ejecucion--
+-$ tmux
+_____
+pagina donde puede aprender los comandos
+https://tmuxcheatsheet.com/
+_______________________________________________________________________________________________________________
+para  scaniar las direcciones MAC que estan conecatadas a tu red o a una red
+--Comando de ejeccion -- 
+-$ arp-scan --interface=eth0 IP/24
+_______________________________________________________________________________________________________________
+MACCHANGER
+Lo utilizamos para poder cambiar la direccion MAC
+--Comando de ejecucion-- 
+-$ macchanger
+-$ macchanger -h
+-$ macchanger -s "dispositivo de red wifi" <- eth0  <<<< esta linea de comando se utiliza para ver que MAC tienes 
+________________________________________________________________________________________________________________
+SUBLIST3R
+Sublist3r es una herramienta de Python diseñada para enumerar subdominios de sitios web 
+usando OSINT. Ayuda a los probadores de penetración y cazadores de errores a recopilar y 
+recopilar subdominios para el dominio al que se dirigen. Sublist3r enumera subdominios 
+usando muchos motores de búsqueda como Google, Yahoo, Bing, Baidu y Ask. Sublist3r también 
+enumera subdominios usando Netcraft, Virustotal, ThreatCrowd, DNSdumpster y ReverseDNS.
+--Comando de ejecucion--
+-$ sublister -h
+-$ sublist3r -d <Pagina web>
